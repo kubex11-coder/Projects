@@ -540,6 +540,9 @@ a {
   .nabizena-pozice img {
     align-self: center;
   }
+  #pozice-header {
+    font-size: 4.5rem;
+  }
 }
 @media screen and (max-width: 930px) {
   .herobanner__header {

@@ -53,6 +53,10 @@
             align-self: center;
         }
     }
+
+    #pozice-header {
+        font-size: 4.5rem;
+    }
 }
 
 @include media-md {
