@@ -454,6 +454,10 @@ nav .nav .menu-nav__link:hover {
   margin-left: 150px;
   list-style: disc;
 }
+.nabizena-pozice__text-section ul li span {
+  color: blue;
+  font-weight: 800;
+}
 .nabizena-pozice__text-section ul li::marker {
   color: rgb(38, 86, 156);
 }

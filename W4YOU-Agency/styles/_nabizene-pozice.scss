@@ -33,6 +33,11 @@
             margin-left: 150px;
             list-style: disc;
 
+            span {
+                color: blue;
+                font-weight: 800;
+            }
+
             &::marker {
                 color: $secondary-color;
             }
