@@ -76,16 +76,17 @@ header {
         height: 100vh;
     }
 
-    .scroll__down {
-        right: 1rem;
+    .scroll__down,
+    .header__socials {
+        display: none;
     }
 
-    .header__socials {
+    /* .header__socials {
         flex-direction: row;
         left: 50%;
         transform: translateX(-50%);
         z-index: 10;
         gap: 2rem;
         font-size: 2rem;
-    }
+    } */
 }
