@@ -43,6 +43,7 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
+
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -60,6 +61,46 @@ header {
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+/*=============== COLOR PICKER ======================*/
+
+.color__picker {
+    width: 70px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.color__picker h5 {
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.color__picker-btn {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#green {
+    background-color: green;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#violet {
+    background-color: rgb(127, 18, 127);
+}
+
+#blue {
+    background-color: rgb(55, 19, 156);
 }
 
 /* =========================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
@@ -79,6 +120,10 @@ header {
     .scroll__down,
     .header__socials {
         display: none;
+    }
+
+    .color__picker {
+        top: 30%;
     }
 
     /* .header__socials {

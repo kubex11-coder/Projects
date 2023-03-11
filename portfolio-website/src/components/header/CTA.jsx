@@ -9,7 +9,7 @@ const CTA = () => {
                 Stáhni CV
             </a>
             <a href="#contact" className="btn btn-primary">
-                Napiště mi
+                Napište mi
             </a>
         </div>
     )

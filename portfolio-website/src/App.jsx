@@ -10,9 +10,25 @@ import Conatct from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
 
 const App = () => {
+    function setActiveStyle(bgColor, bgVariant, primaryColor, primaryVariant) {
+        document.documentElement.style.setProperty("--color-bg", bgColor)
+        document.documentElement.style.setProperty(
+            "--color-bg-variant",
+            bgVariant
+        )
+        document.documentElement.style.setProperty(
+            "--color-primary",
+            primaryColor
+        )
+        document.documentElement.style.setProperty(
+            "--color-primary-variant",
+            primaryVariant
+        )
+    }
+
     return (
         <div>
-            <Header></Header>
+            <Header setActiveStyle={setActiveStyle}></Header>
             <Nav></Nav>
             <About></About>
             <Experience></Experience>
