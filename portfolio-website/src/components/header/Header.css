@@ -123,7 +123,7 @@ header {
     }
 
     .color__picker {
-        top: 30%;
+        top: 35%;
     }
 
     /* .header__socials {
@@ -146,9 +146,7 @@ header {
     /*================= ME IMAGE ======================*/
 
     .me {
-        width: 16rem;
-        height: 25rem;
-
-        bottom: 2%;
+        width: 15rem;
+        height: 24rem;
     }
 }
