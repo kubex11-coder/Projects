@@ -12,6 +12,8 @@
 
 :root {
     --color-bg: #1f1f38;
+    /* --color-background: #1f1f38; */
+    --color-background: #00001a;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -35,7 +37,7 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    background: var(--color-bg);
+    background: var(--color-background);
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(assets/image-bg.jpg);

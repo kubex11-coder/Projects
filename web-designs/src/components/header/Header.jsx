@@ -30,9 +30,10 @@ const Header = (props) => {
                         onClick={() =>
                             props.setActiveStyle(
                                 "#004d00",
-                                "#2d8659",
+                                "#004d00",
                                 "#b3ffb3",
-                                "#53c653"
+                                "#53c653",
+                                "#001a00"
                             )
                         }
                     ></button>
@@ -43,9 +44,10 @@ const Header = (props) => {
                         onClick={() =>
                             props.setActiveStyle(
                                 "#cc0099",
-                                "#b30086",
+                                "#800080",
                                 "#ff80bf",
-                                "#ff4dd2"
+                                "#ff4dd2",
+                                "#1a000d"
                             )
                         }
                     ></button>
@@ -55,9 +57,10 @@ const Header = (props) => {
                         onClick={() =>
                             props.setActiveStyle(
                                 "#cc5200",
-                                "#cc7a00",
+                                "#994d00",
                                 "#ffad33",
-                                "#e68a00"
+                                "#e68a00",
+                                "#1a0d00"
                             )
                         }
                     ></button>
@@ -69,7 +72,8 @@ const Header = (props) => {
                                 "#1f1f38",
                                 "#2c2c6c",
                                 "#4db5ff",
-                                "rgba(77, 181, 255, 0.4)"
+                                "rgba(77, 181, 255, 0.4)",
+                                "#00001a"
                             )
                         }
                     ></button>
