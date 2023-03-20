@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <section id="contact">
             <h5>Spojte se se mnou</h5>
-            <h2>Kontaktujte mne</h2>
+            <h2>Napište mi</h2>
 
             <div className="container contact__container">
                 <div className="contact__options">
@@ -26,7 +26,7 @@ const Contact = () => {
                     <article className="contact__option">
                         <RiMessengerLine className="contact__option-icon" />
                         <h4>Messenger</h4>
-                        <h5>Jakub Dvořákz</h5>
+                        <h5></h5>
                         <a href="https://m.me/kubex/" target="_blank">
                             Pošli zprávu
                         </a>

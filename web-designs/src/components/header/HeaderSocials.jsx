@@ -6,13 +6,16 @@ import { GrInstagram } from "react-icons/gr"
 const HeaderSocials = () => {
     return (
         <div className="header__socials">
-            <a href="www.seznam.cz" target="_blank">
+            <a
+                href="https://www.linkedin.com/in/jakub-dvo%C5%99%C3%A1k-592ba9145/"
+                target="_blank"
+            >
                 <BsLinkedin />
             </a>
-            <a href="www.seznam.cz" target="_blank">
+            <a href="https://github.com/kubex11-coder/Projects" target="_blank">
                 <FaGithub />
             </a>
-            <a href="www.seznam.cz" target="_blank">
+            <a href="https://www.instagram.com/jakubdvorak91/" target="_blank">
                 <GrInstagram />
             </a>
         </div>
