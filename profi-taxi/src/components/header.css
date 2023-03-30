@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 8rem;
+  color: hsla(122, 70%, 74%, 0.566);
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: hsla(208, 100%, 97%, 0.466);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: black;
+  width: 400px;
+  font-size: 1.5rem;
+  background-color: aliceblue;
+  letter-spacing: 2px;
+  padding: 15px 50px;
+  border-radius: 25px;
+}
+.btn:hover {
+  background-color: rgba(141, 235, 144, 0.1294117647);
+  color: aliceblue;
+}
+
+/* =========================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 2px aliceblue;
+  }
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 15px 50px;
+  }
+}
+/* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+  .btn {
+    font-size: 1.5rem;
+    padding: 10px 25px;
+  }
+}
+.header__container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+.header__container #background-video {
+  height: 100vh;
+  width: 100vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+.header__container #profi-taxi-logo {
+  position: absolute;
+  width: 200px;
+  top: 30px;
+  left: 20px;
+  opacity: 0.8;
+}
+.header__container .header__text-part {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.header__container .header__text-part__buttons {
+  margin: 70px auto 0;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.header__container .header__text-part__buttons .btn {
+  text-transform: uppercase;
+}
+.header__container .header__text-part__buttons .btn:first-child {
+  color: aliceblue;
+  background-color: #73a225;
+}
+.header__container .header__text-part__buttons .btn:first-child:hover {
+  background-color: rgba(141, 235, 144, 0.1294117647);
+}
+.header__container #enyaq-img {
+  position: absolute;
+  width: 35%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-51%);
+}
+
+/* =========================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+@media screen and (max-width: 1024px) {
+  .header__container #profi-taxi-logo {
+    width: 100px;
+  }
+  .header__container #enyaq-img {
+    width: 60%;
+    overflow: hidden;
+  }
+}
+/* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 600px) {
+  .header__container .header__text-part {
+    top: 20%;
+  }
+  .header__container .header__text-part__buttons {
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header__container .header__text-part__buttons .btn {
+    width: 200px;
+  }
+  .header__container #enyaq-img {
+    width: 80%;
+  }
+}/*# sourceMappingURL=header.css.map */

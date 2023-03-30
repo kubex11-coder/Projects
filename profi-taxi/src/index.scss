@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+$primary-color: #73a225;
+
+h1 {
+    font-size: 8rem;
+    // color: aliceblue;
+    color: hsla(122, 70%, 74%, 0.566);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    // text-shadow: 5px 5px 2px $primary-color;
+}
+
+h3 {
+    color: hsla(208, 100%, 97%, 0.466);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: black;
+    width: 400px;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    letter-spacing: 2px;
+    padding: 15px 50px;
+    border-radius: 25px;
+
+    &:hover {
+        background-color: #8deb9021;
+        color: aliceblue;
+    }
+}
+
+/* =========================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+        text-shadow: 1px 1px 2px aliceblue;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 15px 50px;
+    }
+}
+
+/* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 10px 25px;
+    }
+}
