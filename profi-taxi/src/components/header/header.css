@@ -12,7 +12,7 @@ a {
 
 h1 {
   font-size: 3rem;
-  color: #73a225;
+  color: rgb(223, 223, 27);
   letter-spacing: 5px;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -107,7 +107,7 @@ p {
   padding-left: 20px;
 }
 .header__container .header__social-icons a:hover {
-  color: #73a225;
+  color: rgb(223, 223, 27);
 }
 .header__container #profi-taxi-logo {
   position: absolute;
@@ -136,11 +136,12 @@ p {
   text-transform: uppercase;
 }
 .header__container .header__text-part__buttons .btn:first-child {
-  color: aliceblue;
-  background-color: #73a225;
+  color: rgb(17, 18, 18);
+  background-color: rgb(223, 223, 27);
 }
 .header__container .header__text-part__buttons .btn:first-child:hover {
   background-color: rgba(141, 235, 144, 0.1294117647);
+  color: aliceblue;
 }
 .header__container #enyaq-img {
   position: absolute;

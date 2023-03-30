@@ -1,4 +1,4 @@
-@import "../index";
+@import "../../index";
 
 .header__container {
     height: 100vh;
@@ -57,11 +57,12 @@
                 text-transform: uppercase;
 
                 &:first-child {
-                    color: aliceblue;
+                    color: rgb(17, 18, 18);
                     background-color: $primary-color;
 
                     &:hover {
                         background-color: #8deb9021;
+                        color: aliceblue;
                     }
                 }
             }
