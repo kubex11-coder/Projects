@@ -3,7 +3,7 @@ import "./Prices.css"
 const Prices = () => {
     return (
         <section className="prices prices__container">
-            <h1>Ceník služeb</h1>
+            <h2 id="prices">Ceník služeb</h2>
             <div className="prices__table">
                 <div className="prices__table__box">
                     <div className="prices__table__item">

@@ -45,7 +45,7 @@ const Header = () => {
                     <a className="btn" href="#">
                         Zavolejte
                     </a>
-                    <a className="btn" href="#">
+                    <a className="btn" href="#prices">
                         Ceník
                     </a>
                 </div>

@@ -99,13 +99,16 @@
             position: absolute;
             top: 30px;
             left: 50%;
+            right: unset;
             transform: translateX(-50%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
 
             a {
+                text-align: center;
                 font-size: 1.5rem;
+                padding: 0 10px;
             }
         }
         #profi-taxi-logo {

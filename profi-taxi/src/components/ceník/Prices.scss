@@ -2,7 +2,39 @@
 
 .prices {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden;
-    background-color: black;
+
+    background: url(../assets/yellowbackground3.png);
+    background-color: rgba(111, 112, 13, 0.6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+        text-transform: uppercase;
+    }
+    &__table {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+/* =========================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+
+@media screen and (max-width: 1024px) {
+    .prices {
+        height: 80vh;
+    }
+}
+
+/* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 600px) {
+    .prices {
+        height: 100vh;
+    }
 }

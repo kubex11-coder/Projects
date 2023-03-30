@@ -4,6 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Playfair Display", serif;
+  max-width: 100%;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -17,6 +19,13 @@ h1 {
   text-transform: uppercase;
   margin-bottom: 0;
   text-shadow: 1px 1px 2px whitesmoke;
+}
+
+h2 {
+  font-size: 3rem;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 5px;
+  color: aliceblue;
 }
 
 h3 {
@@ -71,6 +80,10 @@ p {
     margin-bottom: 15px;
     letter-spacing: 3px;
   }
+  h2 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
   h3 {
     font-size: 1.2rem;
     margin-bottom: 25px;
@@ -85,7 +98,35 @@ p {
 }
 .prices {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   overflow: hidden;
-  background-color: black;
+  background: url(../assets/yellowbackground3.png);
+  background-color: rgba(111, 112, 13, 0.6);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.prices h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+.prices__table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* =========================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+@media screen and (max-width: 1024px) {
+  .prices {
+    height: 80vh;
+  }
+}
+/* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 600px) {
+  .prices {
+    height: 100vh;
+  }
 }/*# sourceMappingURL=Prices.css.map */
