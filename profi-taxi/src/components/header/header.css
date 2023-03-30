@@ -76,24 +76,24 @@ p {
 /* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 2rem;
-    margin-bottom: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
     letter-spacing: 3px;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 3px;
   }
   h3 {
     font-size: 1.2rem;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }
   p {
     font-size: 0.8rem;
   }
   .btn {
-    font-size: 1.2rem;
-    padding: 10px 25px;
+    font-size: 1rem;
+    padding: 8px 20px;
   }
 }
 .header__container {
@@ -185,7 +185,7 @@ p {
   }
   .header__container .header__social-icons a {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 0 10px;
   }
   .header__container #profi-taxi-logo {
@@ -200,7 +200,7 @@ p {
   .header__container .header__text-part__buttons {
     margin-top: 70px;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
   }
   .header__container .header__text-part__buttons .btn {
     width: 200px;
