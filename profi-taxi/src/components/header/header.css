@@ -131,6 +131,7 @@ p {
   color: aliceblue;
   font-size: 2rem;
   padding-left: 20px;
+  transition: 0.5s ease;
 }
 .header__container .header__social-icons a:hover {
   color: rgb(223, 223, 27);
@@ -160,6 +161,7 @@ p {
 }
 .header__container .header__text-part__buttons .btn {
   text-transform: uppercase;
+  transition: 0.5s ease;
 }
 .header__container .header__text-part__buttons .btn:first-child {
   color: rgb(17, 18, 18);

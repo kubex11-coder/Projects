@@ -1,1 +1,149 @@
-@import "../../index.css";
+@import "../../index";
+
+section#contact {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.container.contact__container {
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+    h4 {
+        color: aliceblue;
+    }
+    h5 {
+        color: $primary-color;
+    }
+}
+
+.contact__options {
+    width: 70%;
+    display: flex;
+    justify-self: end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background-color: transparent;
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid $primary-color;
+    transition: $transition;
+}
+
+.contact__option:hover {
+    a {
+        letter-spacing: 2px;
+
+        text-decoration: underline;
+    }
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: aliceblue;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    color: $primary-color;
+}
+
+/*===================== FORM ========================*/
+
+form {
+    display: flex;
+    justify-self: start;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 80%;
+}
+
+input,
+textarea {
+    background: red;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    border-bottom: 2px solid $primary-color;
+    color: $primary-color;
+    letter-spacing: 2px;
+
+    &:focus {
+        outline: none;
+    }
+    &.jump::placeholder {
+        position: relative;
+        bottom: 25px;
+    }
+}
+::placeholder {
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+}
+
+.btn-primary {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    color: rgb(17, 18, 18);
+    background-color: $primary-color;
+
+    &:hover {
+        background-color: #8deb9021;
+        color: aliceblue;
+    }
+}
+
+/* =========================== MEDIA QUERIES (MEDIUM DEVICES) =======================*/
+
+@media screen and (max-width: 1024px) {
+    .container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact__options {
+        justify-self: center;
+    }
+
+    form {
+        justify-self: center;
+    }
+}
+
+/* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: var(--container-width-sm);
+
+        h4 {
+            font-size: 1.5rem;
+        }
+    }
+}
