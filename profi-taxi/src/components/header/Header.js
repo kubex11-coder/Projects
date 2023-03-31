@@ -1,6 +1,7 @@
 import "./header.css"
 import Enyaq from "../assets/enyaq.png"
 import BackgroundVideo from "../assets/background-vid.mp4"
+import BackgroundPhoto from "../assets/header-background.PNG"
 import Logo from "../assets/logo-nobg.png"
 import React from "react"
 import { SiFacebook } from "react-icons/si"
@@ -12,12 +13,19 @@ const Header = () => {
         <div className="header__container">
             <video
                 src={BackgroundVideo}
+                className="header-background"
                 id="background-video"
                 autoPlay
                 playsInline
                 muted
                 loop
             ></video>
+            <img
+                className="header-background"
+                id="background-photo"
+                src={BackgroundPhoto}
+                alt=""
+            />
             <a href="#">
                 <img src={Logo} alt="profi taxi logo" id="profi-taxi-logo" />
             </a>

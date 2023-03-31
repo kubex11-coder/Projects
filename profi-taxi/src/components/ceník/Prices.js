@@ -18,7 +18,7 @@ const Prices = () => {
                     <div className="prices__table__item">
                         <p>
                             Cena za 1 Km Mimo Město<br></br>
-                            <i>Platí při cestě z MB mimo a zpět</i>
+                            <span>Platí při cestě z MB mimo a zpět</span>
                         </p>
                         <h4>15,-</h4>
                     </div>

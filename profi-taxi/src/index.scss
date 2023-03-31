@@ -16,6 +16,7 @@ a {
 // $primary-color: #73a225;
 $primary-color: rgb(223, 223, 27);
 $secondary-color: aliceblue;
+$tercialy-color: hsla(208, 100%, 97%, 0.466);
 
 h1 {
     font-size: 3rem;
@@ -34,7 +35,7 @@ h2 {
 }
 
 h3 {
-    color: hsla(208, 100%, 97%, 0.466);
+    color: $tercialy-color;
     font-size: 1.5rem;
     margin-bottom: 20px;
 }

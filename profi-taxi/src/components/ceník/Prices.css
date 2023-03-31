@@ -151,6 +151,11 @@ p {
   padding: 25px 0;
   border-bottom: 1px rgb(223, 223, 27) solid;
 }
+.prices__table__box .prices__table__item span {
+  color: hsla(208, 100%, 97%, 0.466);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
 .prices__table__box h3 {
   padding-top: 25px;
 }
