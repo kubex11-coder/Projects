@@ -185,10 +185,9 @@ form {
 
 input,
 textarea {
-  background: red;
   width: 100%;
   padding: 1.5rem;
-  border-radius: 0.5rem;
+  padding-bottom: 10px;
   background: transparent;
   outline: none;
   border: none;
@@ -203,12 +202,12 @@ textarea:focus {
 }
 input.jump::-moz-placeholder, textarea.jump::-moz-placeholder {
   position: relative;
-  bottom: 25px;
+  bottom: 28px;
 }
 input.jump::placeholder,
 textarea.jump::placeholder {
   position: relative;
-  bottom: 25px;
+  bottom: 28px;
 }
 
 ::-moz-placeholder {

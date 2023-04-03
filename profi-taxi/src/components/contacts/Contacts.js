@@ -93,7 +93,7 @@ const Contacts = () => {
                     <textarea
                         className="text-jump"
                         name="message"
-                        rows="7"
+                        rows="6"
                         placeholder="Vaše zpráva"
                         required
                     ></textarea>
