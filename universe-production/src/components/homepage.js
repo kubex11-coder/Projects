@@ -1,12 +1,13 @@
 import "./homepage.css"
 import Logo from "../images/universe-production-logo.png"
 import HomeVideo from "../images/universe-video.mp4"
+import HomeVideo1 from "../images/universe-video1.mp4"
 
 const homepage = () => {
     return (
         <div className="wrapper">
             <video
-                src={HomeVideo}
+                src={HomeVideo1}
                 className="header-background"
                 id="background-video"
                 autoPlay
