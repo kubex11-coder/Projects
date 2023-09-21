@@ -1,0 +1,39 @@
+header {
+    height: 50px;
+    background-color: #121212;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #121212;
+}
+
+.DER {
+    background-color: rgb(52, 230, 35);
+}
+
+.DIE {
+    background-color: rgb(233, 236, 17);
+}
+
+.DAS {
+    background-color: rgb(115, 147, 236);
+}
+
+.all {
+    background-color: #d3cccc;
+}
+
+/* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
+@media screen and (max-width: 700px) {
+    button {
+        font-size: 1rem;
+    }
+}
