@@ -14,7 +14,8 @@ body {
     align-items: center;
 }
 .box-wrapper,
-.žlutá {
+.žlutá,
+.fialová {
     width: 70%;
     height: 80%;
     border-radius: 25px;
@@ -27,7 +28,8 @@ body {
 }
 
 .box-wrapper p,
-.žlutá p {
+.žlutá p,
+.fialová p {
     display: block;
     color: black;
     word-wrap: break-word;
@@ -40,7 +42,8 @@ body {
 }
 
 .box-wrapper button,
-.žlutá button {
+.žlutá button,
+.fialová button {
     font-size: 1.5rem;
     padding: 20px 25px;
     color: aliceblue;
@@ -66,17 +69,22 @@ body {
 .zelená {
     background-color: rgb(52, 230, 35);
 }
+.fialová {
+    background-color: #df88d0;
+}
 
 /* =========================== MEDIA QUERIES (SMALL DEVICES) =======================*/
 @media screen and (max-width: 700px) {
     .box-wrapper,
-    .žlutá {
+    .žlutá,
+    .fialová {
         width: 90%;
         height: 80%;
     }
 
     .box-wrapper p,
-    .žlutá p {
+    .žlutá p,
+    .fialová p {
         font-weight: 800;
         font-size: 2rem;
     }

@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link to="/das">DAS</Link>
             </button>
             <button className="all">
-                <Link to="/">Všechny</Link>
+                <Link to="/">Všechny slovíčka</Link>
             </button>
         </header>
     )

@@ -156,6 +156,7 @@ const podstatnáJména = [
     { CZ: "Pár", DE: "das Paar", Barva: "modrá" },
     { CZ: "Země", DE: "das Land", Barva: "modrá" },
     { CZ: "Slovník", DE: "das Wörterbuch", Barva: "modrá" },
+    { CZ: "Skákat", DE: "springen", Barva: "fialová" },
 ]
 
 export default podstatnáJména
