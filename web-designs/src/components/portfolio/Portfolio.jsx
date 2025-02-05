@@ -6,29 +6,30 @@ import IMG3 from "../../assets/portfolio3.PNG"
 import IMG4 from "../../assets/portfolio4.PNG"
 import IMG5 from "../../assets/portfolio5.PNG"
 import IMG6 from "../../assets/portfolio6.PNG"
+import IMG11 from "../../assets/portfolio11.png"
 
 const Portfolio = () => {
     const portfolioData = [
         {
             id: "1",
-            title: "W4YOU Agency",
-            img: IMG1,
+            title: "OK Recruitment",
+            img: IMG11,
             github: "https://github.com/kubex11-coder/Projects",
-            web: "https://w4you-agency.cz/",
+            web: "https://okrecruitment.cz/",
         },
         {
             id: "2",
-            title: "VTJ Constructuon",
-            img: IMG4,
-            github: "https://github.com/kubex11-coder/Projects",
-            web: "https://ukazka-designu.cz/",
-        },
-        {
-            id: "3",
             title: "Universe Club",
             img: IMG3,
             github: "https://github.com/kubex11-coder/Projects",
             web: "https://universeclub.cz/",
+        },
+        {
+            id: "3",
+            title: "VTJ Constructuon",
+            img: IMG4,
+            github: "https://github.com/kubex11-coder/Projects",
+            web: "https://ukazka-designu.cz/",
         },
 
         {
